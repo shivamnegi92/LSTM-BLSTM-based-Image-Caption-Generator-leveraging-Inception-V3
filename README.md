@@ -1,1 +1,2 @@
-# LSTM BLSTM based Image Caption Generator leveraging Inception V3
+# Image_Caption_LSTM_BLSTM_Final
+Using Inception-V3 and MobileNet
