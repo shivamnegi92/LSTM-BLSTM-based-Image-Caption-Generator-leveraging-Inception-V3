@@ -42,7 +42,8 @@ Computation efficacy is a key factor which drives deep learning algorithms. In 2
 
 
 
-<img src="https://raw.githubusercontent.com/joshua19881228/my_blogs/master/Computer_Vision/Reading_Note/figures/Reading_Note_20170719_MobileNet_1.png height="24" width="48">
+![Keras logo](https://www.semanticscholar.org/paper/MobileNets%3A-Efficient-Convolutional-Neural-Networks-Howard-Zhu/a1543975098f8ec14f4402f761eefb473100beee)
+
 
 
 ## Library: Keras
