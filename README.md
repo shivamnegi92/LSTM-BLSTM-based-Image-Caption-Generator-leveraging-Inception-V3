@@ -28,7 +28,7 @@ increased depth and width of the model. The weights for Inception V3 are smaller
 ![InceptionV3](https://cdn-images-1.medium.com/max/800/1*uXfC5fcbDsL0TJG4T8PsVw.png)
 
 
-Long Short-Term Memory Network
+## Long Short-Term Memory Network
 The Long Short-Term Memory network, or LSTM network, is a recurrent neural network that is trained using Backpropagation Through 
 Time and overcomes the vanishing gradient problem.
 As such, it can be used to create large recurrent networks that in turn can be used to address difficult sequence problems in machine
@@ -40,10 +40,7 @@ control whether they are triggered or not, making the change of state and additi
 ## MobileNet
 Computation efficacy is a key factor which drives deep learning algorithms. In 2017, Google’s Mobile Net came out as a model which can effectively maximize the accuracy while keeping a tab on resource usage of the device it is run on. The design of MobileNets are built for classification, image segmentation, detection and embedding, and work the same way as other ImageNet models work, however, MobileNets are designed to have a small size, low latency and low power consumption. Figure 3 details the architecture for the MobileNet model.
 
-
-
-![Keras logo](https://www.semanticscholar.org/paper/MobileNets%3A-Efficient-Convolutional-Neural-Networks-Howard-Zhu/a1543975098f8ec14f4402f761eefb473100beee)
-
+![Mobile Net](https://raw.githubusercontent.com/joshua19881228/my_blogs/master/Computer_Vision/Reading_Note/figures/Reading_Note_20170719_MobileNet_1.png)
 
 
 ## Library: Keras
