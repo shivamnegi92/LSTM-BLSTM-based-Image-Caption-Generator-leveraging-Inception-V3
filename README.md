@@ -1,4 +1,5 @@
 # Image Caption Generator: Leveraging LSTM and BLSTM over Inceotion V3
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/shivamnegi92/LSTM-BLSTM-based-Image-Caption-Generator-leveraging-Inception-V3/blob/master/LICENSE)
 
 ## Context
 Image and speech recognition problems have been worked on extensively in recent years. The advances in neural and deep neural networks have greatly improved image recognition techniques. While speech recognition is a fairly common task, translating and generating speech based on external inputs is far more complicated, particularly when it comes to the semantics of different languages. A common solution to these problems are Long Short Term Memory networks, also known as LSTMs.
@@ -18,7 +19,7 @@ Flickr-8K is a dataset with 8000 images from the flickr website and can be found
 
 Link: https://forms.illinois.edu/sec/1713398
 
-## Method - LSTM (Works great for series data)
+## Method - LSTM (Works great for series data) + CNN (Inception V3)
 CNN+Inception V3:
 In the field of computer vision research, the ImageNet Project is aimed at labeling and categorizing images into almost 22,000 object categories. 1.2 million training images are used to build the model while another 50,000 images for validation and 100,000 images for testing.
 The Inception V3 model proposed by Szegedy et al. has a CNN based architecture and led to a new state of the art for classification and detection. The key feature of the model is its design which improved utilization of the computing resources. The design achieves this by allowing for
@@ -35,6 +36,13 @@ learning and achieve state-of-the-art results. Instead of neurons, LSTM networks
 A block has components that make it smarter than a classical neuron and a memory for recent sequences. A block contains gates that manage
 the block’s state and output. A block operates upon an input sequence and each gate within a block uses the sigmoid activation units to 
 control whether they are triggered or not, making the change of state and addition of information flowing through the block conditional.
+
+## MobileNet
+Computation efficacy is a key factor which drives deep learning algorithms. In 2017, Google’s Mobile Net came out as a model which can effectively maximize the accuracy while keeping a tab on resource usage of the device it is run on. The design of MobileNets are built for classification, image segmentation, detection and embedding, and work the same way as other ImageNet models work, however, MobileNets are designed to have a small size, low latency and low power consumption. Figure 3 details the architecture for the MobileNet model.
+
+![Mobile Net](https://raw.githubusercontent.com/joshua19881228/my_blogs/master/Computer_Vision/Reading_Note/figures/Reading_Note_20170719_MobileNet_1.png)
+
+
 
 ## Library: Keras
 
